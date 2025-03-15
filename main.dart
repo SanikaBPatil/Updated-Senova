@@ -4,6 +4,7 @@ import 'health_history.dart';
 import 'patient_diet.dart';
 import 'patient_workout.dart';
 
+
 void main() {
   runApp(PatientMainApp());
 }
@@ -45,7 +46,7 @@ class PatientMainPage extends StatelessWidget {
                 ),
                 SizedBox(width: 16),
                 Text(
-                  'Welcome, John Doe!',
+                  'Welcome, Dhanashri!',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
@@ -255,3 +256,4 @@ class PatientMainPage extends StatelessWidget {
     );
   }
 }
+
